@@ -1,6 +1,6 @@
 while True:
-    nome_usuario = ('Digite seu nome do usuario: ')
-    senha_usuario = ('Digite sua senha: ')
+    nome_usuario = input('Digite seu nome do usuario: ')
+    senha_usuario = input('Digite sua senha: ')
 
     if len(nome_usuario) < 5:
         print('O nome do usuario precisa ter pelo menos 5 caracteristicas.')
